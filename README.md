@@ -2,8 +2,7 @@
 
 ## Overview
 
-This project implements a **FreeFEM++** solution for pricing **American basket options** using **finite element methods**. Developed as part of the **Applied Numerical Finance** course at **Bocconi University** under the supervision of **Professor Battauz**, this model focuses on pricing American options on the maximum of two assets and compares them with their European counterparts. The core solution involves solving partial differential equations (PDEs) using finite element methods (FEM).
-
+This project implements a **FreeFEM++** solution for pricing **American basket options** using **finite element methods**. Developed as part of the **Applied Numerical Finance** course at **Bocconi University** under the supervision of **Professor Battauz**, this model focuses on pricing American options on the maximum of two assets and compares them with their European counterparts.
 ## Key Features
 
 * **American Basket Option Pricing:** Computes the price of an American option on the maximum of two assets
