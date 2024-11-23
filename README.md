@@ -14,6 +14,7 @@ This project implements a **FreeFEM++** solution for pricing **American basket o
 ## Prerequisites
 
 * **FreeFEM++:** Download and install the latest version of FreeFEM++ from the [official website](https://doc.freefem.org/introduction/download.html)
+* **C++ Compiler:** FreeFEM++ uses a C++-based scripting language, requiring a compatible C++ compiler
 
 ## Installation
 
@@ -23,28 +24,76 @@ This project implements a **FreeFEM++** solution for pricing **American basket o
    ```bash
    git clone https://github.com/acs-coder/american-basket-options-freefem.git
    ```
-
 3. **Navigate to Project Directory:**
    ```bash
    cd american-basket-options-freefem
    ```
 
-4. **Execute FreeFEM++ Script:** Run the main FreeFEM++ script (e.g., `VIA-american_r2.edp`) using:
+4. **Execute FreeFEM++ Script:** Run the main FreeFEM++ script (e.g., `main.edp`) using:
    ```bash
-   FreeFem++ VIA-american_r2.edp 
+   FreeFem++ main.edp 
    ```
 
 ## Usage
 
-The FreeFEM++ script defines various financial parameters, including volatility, risk-free interest rate, and strike price. Modify these input parameters within the script to explore different scenarios:
+The FreeFEM++ script supports two operational modes controlled by the `COMPAREMODE` parameter:
 
-* `T`: Time to maturity (in years)
-* `sigmax`: Volatility of the first asset
-* `sigmay`: Volatility of the second asset
-* `rho`: Correlation between the two assets
-* `r`: Risk-free interest rate
-* `K`: Strike price
-* `dt`: Time step for numerical solution
+### Comparison Mode (`COMPAREMODE = true`)
+- Computes both American and European basket options
+- Provides visual comparison between American and European options
+- Calculates and visualizes the early exercise premium
+- Generates comparison data files for external plotting
+- Saves mesh data for both option types
+
+### Standard Mode (`COMPAREMODE = false`)
+- Focuses solely on American basket option pricing
+- Provides visualization of the time value and mesh
+- Generates standard plots and mesh data files
+
+### Configuration Parameters
+
+The script defines several groups of parameters that can be modified:
+
+#### Algorithm Parameters
+* `m`: Mesh size parameter (default: 40)
+* `L`: Domain size in x direction (default: 80)
+* `LL`: Domain size in y direction (default: 80)
+* `kmax`: Maximum number of iterations for internal cycle (default: 7)
+
+#### Financial Parameters
+* `COMPAREMODE`: Boolean switch for comparison mode (true/false)
+* `T`: Time to maturity in years (default: 1)
+* `sigmax`: Volatility of first asset (default: 0.35)
+* `sigmay`: Volatility of second asset (default: 0.3)
+* `rho`: Correlation between assets (default: -0.3)
+* `r`: Risk-free interest rate (default: 0.02)
+* `K`: Strike price (default: 40)
+* `dt`: Time step for numerical solution (default: 0.01)
+
+#### Error Control Parameters
+* `eps`: Convergence tolerance (default: 1e-10)
+* `tol`: Mesh adaptation tolerance (default: 0.0005)
+* `tolmin`: Minimum mesh adaptation tolerance (default: 0.0001)
+* `tgv`: Penalization parameter (default: 1e30)
+* `c`: Algorithm parameter (default: 1000)
+* `kj`: Mesh adaptation frequency (default: 2)
+
+**Note**: The mesh and numerical parameters are optimized for the default financial parameters. If you modify the financial parameters significantly, you may need to adjust the mesh and error control parameters accordingly.
+
+### Output Files
+
+The script generates different output files based on the selected mode:
+
+#### Comparison Mode
+- `mm-VIA-american.points`: Mesh points for American option
+- `mm-VIA-european.points`: Mesh points for European option
+- `graphTime value of the option 3D.txt`: 3D plot data
+- `plotCOMPAREamerican-european.txt`: Comparison data for text analysis
+
+#### Standard Mode
+- `mm-VIA-american.points`: Mesh points for American option
+- `plotVIA-american.gp`: Gnuplot data file
+- Various .eps plot files
 
 ## Results
 
