@@ -14,7 +14,6 @@ This project implements a **FreeFEM++** solution for pricing **American basket o
 ## Prerequisites
 
 * **FreeFEM++:** Download and install the latest version of FreeFEM++ from the [official website](https://doc.freefem.org/introduction/download.html)
-* **C++ Compiler:** FreeFEM++ uses a C++-based scripting language, requiring a compatible C++ compiler
 
 ## Installation
 
@@ -29,9 +28,9 @@ This project implements a **FreeFEM++** solution for pricing **American basket o
    cd american-basket-options-freefem
    ```
 
-4. **Execute FreeFEM++ Script:** Run the main FreeFEM++ script (e.g., `main.edp`) using:
+4. **Execute FreeFEM++ Script:** Run the main FreeFEM++ script (e.g., `VIA-american_r2.edp`) using:
    ```bash
-   FreeFem++ main.edp 
+   FreeFem++ VIA-american_r2.edp 
    ```
 
 ## Usage
