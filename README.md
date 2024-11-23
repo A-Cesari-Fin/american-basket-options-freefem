@@ -20,7 +20,7 @@ This project implements a **FreeFEM++** solution for pricing **American basket o
 
 2. **Clone the Repository:** Clone this repository to your local machine using the following command:
    ```bash
-   git clone https://github.com/acs-coder/american-basket-options-freefem.git
+   git clone https://github.com/A-Cesari-Fin/american-basket-options-freefem.git
    ```
 3. **Navigate to Project Directory:**
    ```bash
