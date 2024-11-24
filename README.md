@@ -99,11 +99,7 @@ The script produces the computed American basket option price. FreeFEM++ also ge
 
 ## Technical Documentation
 
-For detailed information about the mathematical formulation, numerical methods, and implementation details, please refer to the [Technical Documentation](docs/technical.md).
-
-## Performance Analysis
-
-Performance benchmarks and accuracy comparisons with other numerical methods can be found in the [Performance Analysis](docs/performance.md) document.
+For detailed information about the mathematical formulation, numerical methods, and implementation details, please refer to the [Technical Documentation](docs/Finite_Element_Methods_for_Option_Pricing.pdf).
 
 ## License
 
