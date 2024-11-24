@@ -1,8 +1,7 @@
 # American Basket Option Pricing with Finite Elements
 
-## Overview
-
 This project implements a **FreeFEM++** solution for pricing **American basket options** using **finite element methods**. Developed as part of the **Applied Numerical Finance** course at **Bocconi University** under the supervision of **Professor Battauz**, this model focuses on pricing American options on the maximum of two assets and compares them with their European counterparts.
+
 ## Key Features
 
 * **American Basket Option Pricing:** Computes the price of an American option on the maximum of two assets
@@ -18,23 +17,36 @@ This project implements a **FreeFEM++** solution for pricing **American basket o
 
 1. **Install FreeFEM++:** Follow the instructions on the FreeFEM++ website to install the software for your operating system.
 
-2. **Clone the Repository:** Clone this repository to your local machine using the following command:
-   ```bash
-   git clone https://github.com/A-Cesari-Fin/american-basket-options-freefem.git
-   ```
-3. **Navigate to Project Directory:**
-   ```bash
-   cd american-basket-options-freefem
-   ```
+2. **Download the Project:**
+   * Visit the project's GitHub repository
+   * Click the green "Code" button
+   * Select "Download ZIP" from the dropdown menu
+   * Extract the downloaded ZIP file to your preferred location
 
-4. **Execute FreeFEM++ Script:** Run the main FreeFEM++ script (e.g., `VIA-american_r2.edp`) using:
-   ```bash
-   FreeFem++ VIA-american_r2.edp 
-   ```
+3. **Run the Program:**
 
+   **For Windows Users:**
+   * Launch FreeFEM++ from the Start menu
+   * Click on File → Open
+   * Navigate to the extracted project folder
+   * Select the `VIA-american_r2.edp` file
+   * Click "Run" or press F5 to execute the script
+
+   **For Linux/Mac Users:**
+   * Open a terminal
+   * Navigate to the extracted project folder:
+     ```bash
+     cd path/to/extracted/folder
+     ```
+   * Run the script using:
+     ```bash
+     FreeFem++ VIA-american_r2.edp 
+     ```
 ## Usage
 
-The FreeFEM++ script supports two operational modes controlled by the `COMPAREMODE` parameter:
+Before running the script, you can modify various parameters by editing the `VIA-american_r2.edp` file using any text editor (like Notepad++, VS Code, or even Windows Notepad). Look for the parameters section at the beginning of the file.
+
+The FreeFEM++ script supports two operational modes controlled by the `COMPAREMODE` parameter, which you can toggle between `true` and `false` in the file:
 
 ### Comparison Mode (`COMPAREMODE = true`)
 - Computes both American and European basket options
@@ -50,7 +62,7 @@ The FreeFEM++ script supports two operational modes controlled by the `COMPAREMO
 
 ### Configuration Parameters
 
-The script defines several groups of parameters that can be modified:
+All the following parameters can be modified in the `VIA-american_r2.edp` file:
 
 #### Algorithm Parameters
 * `m`: Mesh size parameter (default: 40)
@@ -76,8 +88,9 @@ The script defines several groups of parameters that can be modified:
 * `c`: Algorithm parameter (default: 1000)
 * `kj`: Mesh adaptation frequency (default: 2)
 
-**Note**: The mesh and numerical parameters are optimized for the default financial parameters. If you modify the financial parameters significantly, you may need to adjust the mesh and error control parameters accordingly.
-
+**Note**: 
+- After modifying any parameters, save the file before running it in FreeFEM++
+- The mesh and numerical parameters are optimized for the default financial parameters. If you modify the financial parameters significantly, you may need to adjust the mesh and error control parameters accordingly
 ### Output Files
 
 The script generates different output files based on the selected mode:
