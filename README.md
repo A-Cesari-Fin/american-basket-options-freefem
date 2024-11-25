@@ -130,6 +130,7 @@ The script produces the computed American basket option price. FreeFEM++ also ge
 <div align="center">
     <strong>Figure 4 - Early Exercise Premium</strong>
 </div>
+
 <div align="center">
     <img src="results/Figure_5-Time_value.png" alt= "Figure 5 - Time value" widt="30%">
 </div>
