@@ -116,6 +116,12 @@ The script produces the computed American basket option price. FreeFEM++ also ge
     <strong>Figure 3a - Price American vs European</strong>
 </div>
 
+![Figure 3b - American vs European diagonal section](results/Figure_3b-American_vs_European_diagonal_section.png)
+
+<div align="center">
+    <strong>Figure 3b - American vs European diagonal section</strong>
+</div>
+
 ## Technical Documentation
 
 For detailed information about the mathematical formulation, numerical methods, and implementation details, please refer to the [Technical Documentation](docs/Finite_Element_Methods_for_Option_Pricing.pdf).
