@@ -111,8 +111,9 @@ The script generates different output files based on the selected mode:
 The script produces the computed American basket option price. FreeFEM++ also generates visualizations of the solution. The early exercise premium is calculated by comparing American and European option prices. Adaptive mesh refinement ensures higher accuracy in critical regions, such as near the strike price.
 
 <div align="center">
-    <img src="results/Figure_3a_Price_American_vs_European.png" "alt= Figure 3a - Price American vs European" widt="50%">
+    <img src="results/Figure_3a_Price_American_vs_European.png" alt= "Figure 3a - Price American vs European" widt="50%">
 </div>
+
 <div align="center">
     <strong>Figure 3a - Price American vs European</strong>
 </div>
