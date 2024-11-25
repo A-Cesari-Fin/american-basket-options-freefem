@@ -113,13 +113,13 @@ The script produces the computed American basket option price. FreeFEM++ also ge
 <div align="center">
     <img src="results/Figure_3a-Price_American_vs_European.png" alt= "Figure 3a - Price American vs European" widt="50%">
 </div>
-
 <div align="center">
     <strong>Figure 3a - Price American vs European</strong>
 </div>
 
-![Figure 3b - American vs European diagonal section](results/Figure_3b-American_vs_European_diagonal_section.png)
-
+<div align="center">
+    <img src="results/Figure_3b-American_vs_European_diagonal_section.png" alt= "Figure 3b - American vs European diagonal section" widt="50%">
+</div>
 <div align="center">
     <strong>Figure 3b - American vs European diagonal section</strong>
 </div>
