@@ -112,7 +112,7 @@ The script produces the computed American basket option price. FreeFEM++ also ge
 
 ![Figure 3a - Price American vs European ](results/Figure_3a-Price_American_vs_European.png)
 
-Figure 3a - Prive American vs European
+**Figure 3a - Price American vs European**
 
 
 ## Technical Documentation
