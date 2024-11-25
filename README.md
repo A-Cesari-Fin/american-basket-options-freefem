@@ -177,21 +177,21 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 ## Contact Information
 
-* **Author:** [Your Name]
-* **Email:** [your.email@example.com]
+* **Author:** [Andrea Cesari]
+* **Email:** [cesari.andrea.99@gmail.com]
 * **LinkedIn:** [Your LinkedIn Profile]
-* **Project Link:** [https://github.com/yourusername/american-basket-options-freefem](https://github.com/yourusername/american-basket-options-freefem)
+* **Project Link:** [https://github.com/A-Cesari-Fin/american-basket-options-freefem](https://github.com/A-Cesari-Fin/american-basket-options-freefem)
 
 ## Citation
 
 If you use this code in your research, please cite:
 ```bibtex
 @misc{american-basket-options-freefem,
-  author = {[Your Name]},
+  author = {[Andrea Cesari]},
   title = {American Basket Option Pricing with Finite Elements},
   year = {2024},
   publisher = {GitHub},
   journal = {GitHub repository},
-  url = {https://github.com/yourusername/american-basket-options-freefem}
+  url = {https://github.com/A-Cesari-Fin/american-basket-options-freefem}
 }
 ```
