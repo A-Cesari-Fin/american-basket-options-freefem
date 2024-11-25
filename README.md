@@ -116,35 +116,35 @@ The script produces the computed American basket option price. FreeFEM++ also ge
 <div align="center">
     <strong>Figure 3a - Price American vs European</strong>
 </div>
-
+<hr style="border: 1px solid black; width: 80%;">
 <div align="center">
     <img src="results/Figure_3b-American_vs_European_diagonal_section.png" alt= "Figure 3b - American vs European diagonal section" widt="30%">
 </div>
 <div align="center">
     <strong>Figure 3b - American vs European diagonal section</strong>
 </div>
-
+<hr style="border: 1px solid black; width: 80%;">
 <div align="center">
     <img src="results/Figure_4-Early_ Esercise_Premium.png" alt= "Figure 4 - Early Exercise Premium" widt="30%">
 </div>
 <div align="center">
     <strong>Figure 4 - Early Exercise Premium</strong>
 </div>
-
+<hr style="border: 1px solid black; width: 80%;">
 <div align="center">
     <img src="results/Figure_5-Time_value.png" alt= "Figure 5 - Time value" widt="30%">
 </div>
 <div align="center">
     <strong>Figure 5 - Time value</strong>
 </div>
-  
+<hr style="border: 1px solid black; width: 80%;">  
 <div align="center">
     <img src="results/Figure_6a-Mesh_2d.png" alt= "Figure 6a - Mesh 2d" widt="30%">
 </div>
 <div align="center">
     <strong>Figure 6a - Mesh 2d</strong>
 </div>
-  
+<hr style="border: 1px solid black; width: 80%;">  
 <div align="center">
     <img src="results/Figure_6b- Mesh_on_time_value.png" alt= "Figure 6b - Mesh on time value" widt="30%">
 </div>
