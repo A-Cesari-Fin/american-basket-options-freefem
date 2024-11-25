@@ -36,7 +36,7 @@ This project implements a **FreeFEM++** solution for pricing **American basket o
    * Open a terminal
    * Navigate to the extracted project folder:
      ```bash
-     cd path/to/extracted/folder
+     cd american-basket-options-freefem-main
      ```
    * Run the script using:
      ```bash
