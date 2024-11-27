@@ -182,7 +182,7 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 * **Author:** [Andrea Cesari]
 * **Email:** [cesari.andrea.99@gmail.com]
 * **LinkedIn:** [Your LinkedIn Profile]
-* **Project Link:** [https://github.com/A-Cesari-Fin/american-basket-options-freefem](https://github.com/A-Cesari-Fin/american-basket-options-freefem)
+* **Project Link:** [https://github.com/andrea-cesari-anfin/american-basket-options-freefem](https://github.com/A-Cesari-Fin/american-basket-options-freefem)
 
 ## Citation
 
@@ -194,6 +194,6 @@ If you use this code in your research, please cite:
   year = {2024},
   publisher = {GitHub},
   journal = {GitHub repository},
-  url = {https://github.com/A-Cesari-Fin/american-basket-options-freefem}
+  url = {https://github.com/andrea-cesari-anfin/american-basket-options-freefem}
 }
 ```
