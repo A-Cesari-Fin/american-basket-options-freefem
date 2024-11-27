@@ -2,6 +2,10 @@
 
 This project implements a **FreeFEM++** solution for pricing **American basket options** using **finite element methods**. Developed as part of the **Applied Numerical Finance** course at **Bocconi University** under the supervision of **Professor Battauz**, this model focuses on pricing American options on the maximum of two assets and compares them with their European counterparts.
 
+## Technical Documentation
+
+For detailed information about the mathematical formulation, numerical methods, and implementation details, please refer to the [Technical Documentation](docs/Finite_Element_Methods_for_Option_Pricing.pdf).
+
 ## Key Features
 
 * **American Basket Option Pricing:** Computes the price of an American option on the maximum of two assets
@@ -151,11 +155,6 @@ The script produces the computed American basket option price. FreeFEM++ also ge
 <div align="center">
     <strong>Figure 6b - Mesh on time value</strong>
 </div>
-
-
-## Technical Documentation
-
-For detailed information about the mathematical formulation, numerical methods, and implementation details, please refer to the [Technical Documentation](docs/Finite_Element_Methods_for_Option_Pricing.pdf).
 
 ## License
 
